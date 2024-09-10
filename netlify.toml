@@ -1,0 +1,156 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  HUGO_VERSION = "0.98.0"
+
+[[redirects]]
+
+  from = "/blog/unexpectedly-expected-editing-2022"
+  to = "/posts/unexpectedly-expected-editing-2022"
+  status = 301
+
+[[redirects]]
+
+  from = "/editing"
+  to = "/projects/editing-portfolio"
+  status = 301
+  
+[[redirects]]
+  
+  from = "/subscribe"
+  to = "/posts"
+  status = 301    
+
+[[redirects]]
+
+  from = "/books"
+  to = "/projects"
+  status = 301   
+
+[[redirects]]
+
+  from = "/bio"
+  to = "/about"
+  status = 301   
+
+[[redirects]]
+
+  from = "/tags/about-me"
+  to = "/about"
+  status = 301   
+
+[[redirects]]
+
+  from = "/theteagrannies"
+  to = "/projects/the-tea-grannies-podcast"
+  status = 301   
+
+[[redirects]]
+
+  from = "/newsletter"
+  to = "/posts"
+  status = 301   
+
+[[redirects]]
+
+  from = "/post/ravings-on-ravens"
+  to = "/posts/good-writing"
+  status = 301   
+
+[[redirects]]
+
+  from = "/blog/types-of-editing"
+  to = "/posts/types-of-editing"
+  status = 301   
+
+[[redirects]]
+
+  from = "/editor"
+  to = "/projects/editing-portfolio"
+  status = 301   
+
+[[redirects]]
+
+  from = "/author"
+  to = "/projects"
+  status = 301   
+
+[[redirects]]
+
+  from = "/blog"
+  to = "/posts"
+  status = 301   
+
+[[redirects]]
+
+  from = "/tags/my-books"
+  to = "/tags/the-nymph-keepers"
+  status = 301   
+
+[[redirects]]
+
+  from = "/post"
+  to = "/posts"
+  status = 301   
+
+[[redirects]]
+
+  from = "/blog/about-me"
+  to = "/about"
+  status = 301   
+
+[[redirects]]
+
+  from = "/blog/good-writing"
+  to = "/posts/good-writing"
+  status = 301   
+
+[[redirects]]
+
+  from = "/blog/heart-of-the-forest-synopsis"
+  to = "/posts/heart-of-the-forest-synopsis"
+  status = 301
+
+[[redirects]]
+
+  from = "/blog/queen-of-the-nymphs-launch-day"
+  to = "/posts/queen-of-the-nymphs-launch-day"
+  status = 301
+
+[[redirects]]
+
+  from = "/blog/queen-of-the-nymphs-pre-order"
+  to = "/posts/queen-of-the-nymphs-pre-order"
+  status = 301
+
+[[redirects]]
+
+  from = "/tags/editing/index"
+  to = "/projects/editing-portfolio"
+  status = 301
+
+[[redirects]]
+
+  from = "/tags/fantasy/index"
+  to = "/tags/fantasy"
+  status = 301
+
+[[redirects]]
+
+  from = "/tags/the-nymph-keepers/index"
+  to = "/tags/the-nymph-keepers"
+  status = 301
+
+[[redirects]]
+
+  from = "/projects/index"
+  to = "/projects"
+  status = 301
+
+[[redirects]]
+
+  from = "/index"
+  to = "/"
+  status = 301
